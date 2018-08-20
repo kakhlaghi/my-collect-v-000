@@ -1,6 +1,6 @@
 def my_collect(collection)
   count = 0
   while count < collection.length
-    yield[count]
+    colleciton << yield[count]
     count +=1
 end  
